@@ -1,7 +1,7 @@
 # Lab-001
 
-Original author(s): Thyago Mota
-Contributor(s):
+Original author(s): Thyago Mota<ENTER>
+Contributor(s):<ENTER>
 Creation date: June 8, 2020
 
 ## Description
