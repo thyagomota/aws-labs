@@ -1,8 +1,6 @@
 # Lab-001
 
-## Header
-
-Title: A Single Linux EC2 Instance
+## A Single Linux EC2 Instance
 
 Difficulty Level: 1
 
