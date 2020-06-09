@@ -51,7 +51,7 @@ Create a new security group named *ssh-access* with a rule that allows SSH from 
 ### Step 7 - Launch Instance
  For the key-pair you can create a new key pair (name it lab-001). Download the key pair to your computer (the file will be named *lab-001.pem*).
 
-## Test and Validation
+## Test
 1. Once your instance is up and running, click on *Connect* and copy the example ssh command-line.
 2. Open a terminal window and move to the folder where you saved the downloaded key file *lab-001.pem*.
 3. Change the permissions of the key file:
