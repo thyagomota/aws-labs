@@ -22,9 +22,9 @@ In order to achieve the goal of this lab, you will have to go through the follow
 
 1. Choose the operating system by selecting the [Amazon Machine Image (AMI)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html).
 2. Define the virtual hardware configuration by choosing an [instance type](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html).
-3. Review **network** settings.
-4. Review **storage** settings.
-5. Create **tags** (optional).
+3. Review the network settings.
+4. Review the storage settings.
+5. Create tags (optional).
 6. Configure the [security group](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) rules (firewall).
 7. Launch the instance (choosing or creating an [EC2 key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)).
 
