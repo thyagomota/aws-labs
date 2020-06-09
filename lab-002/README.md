@@ -31,18 +31,18 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ## Test
 1. First add the EC2 key pair into your local ssh authentication agent using:
 
-'''
+```
 ssh-add -K lab-002.pem (macos)
 ssh-add -c lab-002.pem (linux)
-'''
+```
 
 2. Then connect to the EC2 instance A but with ssh agent forwarding enabled:  
 
-'''
+```
 ssh -A ec2-user@<public-IP of A>
-'''
+```
 3. Finally, from EC2 instance A ssh to the EC2 instance B using its private IP address:
 
-'''
+```
 ssh <private-IP of B>
-'''
+```
