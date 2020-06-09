@@ -6,9 +6,9 @@ Difficulty Level: 1
 
 Creation Date: June 8, 2020
 
-Original Author(s): Thyago Mota
+Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 
-Contributor(s): João Marcelo
+Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
 The goal of this lab is to launch a Linux EC2 instance in a public subnet accessible over the Internet via SSH.
