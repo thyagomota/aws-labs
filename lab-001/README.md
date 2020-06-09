@@ -55,6 +55,10 @@ Create a new security group named *ssh-access* with a rule that allows SSH from 
 1. Once your instance is up and running, click on *Connect* and copy the example ssh command-line.
 2. Open a terminal window and move to the folder where you saved the downloaded key file *lab-001.pem*.
 3. Change the permissions of the key file:
-``` chmod 600 lab-001.pem
+
+``` bash
+chmod 600 lab-001.pem
+```
+
 4. Paste and run the ssh command.
 5. You should be able to log into your instance.
