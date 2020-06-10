@@ -27,6 +27,13 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-03](images/lab-002-scrn-03.png)
 
 2. Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-002 and attach it to lab-002 VPC.
+
+![lab-002-scrn-04](images/lab-002-scrn-04.png)
+![lab-002-scrn-05](images/lab-002-scrn-05.png)
+![lab-002-scrn-06](images/lab-002-scrn-06.png)
+![lab-002-scrn-07](images/lab-002-scrn-07.png)
+![lab-002-scrn-08](images/lab-002-scrn-08.png)
+
 3. Create a public subnet on lab-002 with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
 4. Enable *Auto-assign IPV4* in the newly created public subnet.
 5. Edit the route table of the public subnet adding a default route to *Internet gateway* lab-002.
