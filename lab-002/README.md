@@ -45,7 +45,13 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-12](images/lab-002-scrn-12.png)
 ![lab-002-scrn-13](images/lab-002-scrn-13.png)
 
-5. Edit the route table of the public subnet adding a default route to *Internet gateway* lab-002.
+5. Edit the route table of the VPC adding a default route to *Internet gateway* lab-002.
+
+![lab-002-scrn-14](images/lab-002-scrn-14.png)
+![lab-002-scrn-15](images/lab-002-scrn-15.png)
+![lab-002-scrn-16](images/lab-002-scrn-16.png)
+![lab-002-scrn-17](images/lab-002-scrn-17.png)
+
 6. Create a private subnet on lab-002 with the *Name tag* private and the *IPv4 CIDR block* 192.168.200.0/24.
 7. Launch two EC2 instances using the procedure described in [lab-001](../lab-001); make sure that each subnet has one of the instances.
 
