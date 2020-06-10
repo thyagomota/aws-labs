@@ -21,10 +21,10 @@ This lab illustrates how an EC2 instance running in a *private* subnet can be co
 In order to achieve the goal of this lab, you will have to go through the following steps:
 
 ### Step 1 - Run Lab-002
-Repeat all of the steps described in [lab-002](../lab-002).
+Repeat all of the steps described in [lab-002](../lab-002), making sure that any reference to lab-002 are replaced by lab-003.
 
 ### Step 2 - Create a NAT Gateway
-Create a [NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) in the public subnet.
+Create a [NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) in the public subnet. Note that an elastic public IP must be allocated before a NAT gateway can be created.  
 
 ![lab-003-scrn-01](images/lab-003-scrn-01.png)
 ![lab-003-scrn-02](images/lab-003-scrn-02.png)
