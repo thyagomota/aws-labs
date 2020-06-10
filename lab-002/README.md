@@ -53,6 +53,11 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-17](images/lab-002-scrn-17.png)
 
 6. Create a private subnet on lab-002 with the *Name tag* private and the *IPv4 CIDR block* 192.168.200.0/24.
+
+![lab-002-scrn-18](images/lab-002-scrn-18.png)
+![lab-002-scrn-19](images/lab-002-scrn-19.png)
+![lab-002-scrn-20](images/lab-002-scrn-20.png)
+
 7. Launch two EC2 instances using the procedure described in [lab-001](../lab-001); make sure that each subnet has one of the instances.
 
 Note that the EC2 instance that you will create in the public subnet (labeled as A in the diagram) is necessary so you can later connect to the EC2 instance in the private subnet (labeled as B in the diagram).  EC2 A is normally called *bastion host* or *jump host*.  
