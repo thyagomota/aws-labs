@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-This lab illustrates how an EC2 instance running in a *private* subnet can be configure to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
+This lab illustrates how an EC2 instance running in a *private* subnet can be configured to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
 
 ## Architecture Diagram
 ![lab-003-arch-01](images/lab-003-arch-01.png)
@@ -20,26 +20,39 @@ This lab illustrates how an EC2 instance running in a *private* subnet can be co
 
 In order to achieve the goal of this lab, you will have to go through the following steps:
 
-1. Repeat all of the steps described in [lab-002](../lab-002).
-2.
+### Step 1 - Run Lab-002
+Repeat all of the steps described in [lab-002](../lab-002).
+
+### Step 2 - Create a NAT Gateway
+Create a [NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) in the public subnet.
+
+![lab-003-scrn-01](images/lab-003-scrn-01.png)
+![lab-003-scrn-02](images/lab-003-scrn-02.png)
+![lab-003-scrn-03](images/lab-003-scrn-03.png)
+
+### Step 3 - Create a Route Table
+Create a new route table with the *Name tag* private and with a default route to the NAT gateway created in step 2.
+
+![lab-003-scrn-04](images/lab-003-scrn-04.png)
+![lab-003-scrn-05](images/lab-003-scrn-05.png)
+![lab-003-scrn-06](images/lab-003-scrn-06.png)
+![lab-003-scrn-07](images/lab-003-scrn-07.png)
+![lab-003-scrn-08](images/lab-003-scrn-08.png)
+![lab-003-scrn-09](images/lab-003-scrn-09.png)
+![lab-003-scrn-10](images/lab-003-scrn-10.png)
+
+### Step 4 - Associate the Route Table to the Private Subnet
+Associate the newly created route table to the private subnet.
+
+![lab-003-scrn-11](images/lab-003-scrn-11.png)
+![lab-003-scrn-12](images/lab-003-scrn-12.png)
+![lab-003-scrn-13](images/lab-003-scrn-13.png)
+![lab-003-scrn-14](images/lab-003-scrn-14.png)
 
 
-
-## Test
-1. First add the EC2 key pair into your local ssh authentication agent using:
+## Test and Validation
+To validate this lab you need to access the EC2 instance in the private subnet (labeled as B) and from there try to access the internet, for example:
 
 ```
-ssh-add -K lab-002.pem (macos)
-ssh-add -c lab-002.pem (linux)
-```
-
-2. Then connect to the EC2 instance A but with ssh agent forwarding enabled:  
-
-```
-ssh -A ec2-user@<public-IP of A>
-```
-3. Finally, from EC2 instance A ssh to the EC2 instance B using its private IP address:
-
-```
-ssh <private-IP of B>
+curl www.google.com
 ```
