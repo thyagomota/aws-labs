@@ -21,7 +21,7 @@ The goal of this lab is to demonstrate how to access a Linux EC2 instance launch
 In order to achieve the goal of this lab, you will have to go through the following steps:
 
 1. Create a new VPC with the *Name tag* lab-002 and the *IPv4 CIDR block* 192.168.0.0/16.
-2. Create an *Internet gateway* with the *Name tag* lab-002 and attach it to lab-002 VPC.
+2. Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-002 and attach it to lab-002 VPC.
 3. Create a public subnet on lab-002 with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
 4. Enable *Auto-assign IPV4* in the newly created public subnet.
 5. Edit the route table of the public subnet adding a default route to *Internet gateway* lab-002.
