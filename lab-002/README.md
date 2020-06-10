@@ -22,9 +22,9 @@ In order to achieve the goal of this lab, you will have to go through the follow
 
 1. Create a new VPC with the *Name tag* lab-002 and the *IPv4 CIDR block* 192.168.0.0/16.
 
-[lab-002-scrn-01](images/lab-002-scrn-01.png)
-[lab-002-scrn-02](images/lab-002-scrn-02.png)
-[lab-002-scrn-03](images/lab-002-scrn-03.png)
+![lab-002-scrn-01](images/lab-002-scrn-01.png)
+![lab-002-scrn-02](images/lab-002-scrn-02.png)
+![lab-002-scrn-03](images/lab-002-scrn-03.png)
 
 2. Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-002 and attach it to lab-002 VPC.
 3. Create a public subnet on lab-002 with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
