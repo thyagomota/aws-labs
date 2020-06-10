@@ -20,13 +20,15 @@ The goal of this lab is to demonstrate how to access a Linux EC2 instance launch
 
 In order to achieve the goal of this lab, you will have to go through the following steps:
 
-1. Create a new VPC with the *Name tag* lab-002 and the *IPv4 CIDR block* 192.168.0.0/16.
+### Step 1 - Create VPC
+Create a new VPC with the *Name tag* lab-002 and the *IPv4 CIDR block* 192.168.0.0/16.
 
 ![lab-002-scrn-01](images/lab-002-scrn-01.png)
 ![lab-002-scrn-02](images/lab-002-scrn-02.png)
 ![lab-002-scrn-03](images/lab-002-scrn-03.png)
 
-2. Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-002 and attach it to lab-002 VPC.
+### Step 2 - Create an Internet Gateway
+Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-002 and attach it to lab-002 VPC.
 
 ![lab-002-scrn-04](images/lab-002-scrn-04.png)
 ![lab-002-scrn-05](images/lab-002-scrn-05.png)
@@ -34,18 +36,21 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-07](images/lab-002-scrn-07.png)
 ![lab-002-scrn-08](images/lab-002-scrn-08.png)
 
-3. Create a public subnet on lab-002 with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
+### Step 3 - Create the Public Subnet
+Create a public subnet on lab-002 VPC with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
 
 ![lab-002-scrn-09](images/lab-002-scrn-09.png)
 ![lab-002-scrn-10](images/lab-002-scrn-10.png)
 ![lab-002-scrn-11](images/lab-002-scrn-11.png)
 
-4. Enable *Auto-assign IPV4* in the newly created public subnet.
+### Step 4 - Enable Auto-assign IPv4
+Enable *Auto-assign IPv4* in the newly created public subnet.
 
 ![lab-002-scrn-12](images/lab-002-scrn-12.png)
 ![lab-002-scrn-13](images/lab-002-scrn-13.png)
 
-5. Create a new route table with the *Name tag* public and with a default route to the internet gateway created in step 2.
+### Step 5 - Create a Route Table
+Create a new route table with the *Name tag* public and with a default route to the internet gateway created in step 2.
 
 ![lab-002-scrn-14](images/lab-002-scrn-14.png)
 ![lab-002-scrn-15](images/lab-002-scrn-15.png)
@@ -56,22 +61,25 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-20](images/lab-002-scrn-20.png)
 ![lab-002-scrn-21](images/lab-002-scrn-21.png)
 
-6. Associate the newly created route table with the public subnet.
+### Step 6 - Associate the Route Table to the Public Subnet
+Associate the newly created route table to the public subnet.
 
 ![lab-002-scrn-22](images/lab-002-scrn-22.png)
 ![lab-002-scrn-23](images/lab-002-scrn-23.png)
 
-7. Create a private subnet on lab-002 with the *Name tag* private and the *IPv4 CIDR block* 192.168.200.0/24.
+### Step 7 - Create the Private Subnet
+Create a private subnet on lab-002 VPC with the *Name tag* private and the *IPv4 CIDR block* 192.168.200.0/24.
 
 ![lab-002-scrn-24](images/lab-002-scrn-24.png)
 ![lab-002-scrn-25](images/lab-002-scrn-25.png)
 ![lab-002-scrn-26](images/lab-002-scrn-26.png)
 
-7. Launch two EC2 instances using the procedure described in [lab-001](../lab-001); make sure that each subnet has one of the instances.
+### Step 8 - Launch the EC2 Instances
+Launch two EC2 instances using the procedure described in [lab-001](../lab-001); make sure that each subnet has one of the instances.
 
 Note that the EC2 instance that you will create in the public subnet (labeled as A in the diagram) is necessary so you can later connect to the EC2 instance in the private subnet (labeled as B in the diagram).  EC2 A is normally called *bastion host* or *jump host*.  
 
-## Test
+## Test and Validation
 1. First add the EC2 key pair into your local ssh authentication agent using:
 
 ```
