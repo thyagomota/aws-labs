@@ -35,6 +35,11 @@ In order to achieve the goal of this lab, you will have to go through the follow
 ![lab-002-scrn-08](images/lab-002-scrn-08.png)
 
 3. Create a public subnet on lab-002 with the *Name tag* public and *IPv4 CIDR block* 192.168.100.0/24.  
+
+![lab-002-scrn-09](images/lab-002-scrn-09.png)
+![lab-002-scrn-10](images/lab-002-scrn-10.png)
+![lab-002-scrn-11](images/lab-002-scrn-11.png)
+
 4. Enable *Auto-assign IPV4* in the newly created public subnet.
 5. Edit the route table of the public subnet adding a default route to *Internet gateway* lab-002.
 6. Create a private subnet on lab-002 with the *Name tag* private and the *IPv4 CIDR block* 192.168.200.0/24.
