@@ -14,7 +14,7 @@ Contributor(s): [João Marcelo](https://github.com/jmhal)
 The goal of this lab is to launch a Linux EC2 instance in a public subnet accessible over the Internet via SSH.
 
 ## Architecture Diagram
-![lab-001-01 image](images/lab-001-01.png)
+![lab-001-arch-01](images/lab-001-arch-01.png)
 
 ## Overview
 

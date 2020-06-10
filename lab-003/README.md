@@ -1,4 +1,4 @@
-# Lab-002
+# Lab-003
 
 ## An EC2 Instance in a Private Subnet with Internet Access
 
@@ -14,7 +14,7 @@ Contributor(s): [João Marcelo](https://github.com/jmhal)
 This lab illustrates how an EC2 instance running in a *private* subnet can be configure to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
 
 ## Architecture Diagram
-![lab-003-01 image](images/lab-003-arch-01.png)
+![lab-003-arch-01](images/lab-003-arch-01.png)
 
 ## Overview
 
