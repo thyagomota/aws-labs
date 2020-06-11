@@ -4,7 +4,7 @@
 
 Difficulty Level: 1
 
-Creation Date: June 9, 2020
+Creation Date: June 10, 2020
 
 Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 
@@ -18,13 +18,13 @@ This lab is similar to [lab-003](../lab-003) but instead of using a *Nat gateway
 
 ## Overview
 
-This lab is very similar to [lab-003](../lab-003) except that you will create a *Nat instance* instead of a *Nat gateway*.  Also, when you create the EC2 instance in the public subnet (the one labeled B), make sure to choose an AMI that comes with pre-installed NAT software.
+As mentioned before, this lab is very similar to [lab-003](../lab-003) except that you will create a *Nat instance* instead of a *Nat gateway*.  To do just that, when you create the EC2 instance in the public subnet (the one labeled B), make sure to choose an AMI that comes with pre-installed NAT software.
 
 ### Step 1 - Run Lab-002
-Repeat all of the steps described in [lab-002](../lab-002), making sure that any reference to lab-002 are replaced by lab-004. The security group for the instances must have an *inbound rule* that enables not only SSH but also HTTP traffic. For the EC2 instance in the public subnet, follow the specific instructions described in the next step.
+Repeat all of the steps described in [lab-002](../lab-002), making sure that any references to lab-002 are replaced by lab-004. The security group for the instance in the private subnet (the one labeled B) must have an *inbound rule* that enables not only SSH but also HTTP traffic. For the EC2 instance in the public subnet (the one labeled A), follow the specific instructions described in the next step.
 
 ### Step 2 - Launch an EC2 Instance with NAT Software
-Search the community AMIs for one with NAT software. After the instance is launched, make sure to enable *port forwarding* by disabling *source/destination check*.
+Search the community AMIs for one with NAT software pre-installed. After the instance is launched, make sure to enable *port forwarding* by disabling *source/destination check*.
 
 ![lab-004-scrn-01](images/lab-004-scrn-01.png)
 ![lab-004-scrn-02](images/lab-004-scrn-02.png)
