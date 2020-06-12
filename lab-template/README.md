@@ -11,7 +11,7 @@ Original Author(s):
 Contributor(s):
 
 ## Goal
-The goal of this lab is ...
+Explain in a sentence what is the purpose of this lab.
 
 ## Architecture Diagram
 Use AWS official architecture icons available [here](https://aws.amazon.com/architecture/icons/).
@@ -22,4 +22,4 @@ Write a short paragraph giving some background information about the services yo
 Break this section into subsections explaining all steps needed to complete the lab. Use screenshots to create visual aids for readers that are new to AWS.
 
 ## Test and Validation
-Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do. 
+Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
