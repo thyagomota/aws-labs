@@ -33,5 +33,20 @@ Create a new VPC with the *Name tag* lab-005 and the *IPv4 CIDR block* 192.168.0
 ![lab-005-scrn-04](images/lab-005-scrn-04.png)
 ![lab-005-scrn-05](images/lab-005-scrn-05.png)
 
+### Step 2 - Create an Internet Gateway
+Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-005 and attach it to lab-005 VPC. This procedure is described in detail in step 2 of [lab-002](../lab-002).
+
+### Step 3 - Launch EC2 Instances
+Launch an EC2 instance on each of the public subnets you created in the first step of this lab.
+
+1. You can use *Amazon Linux 2 AMI*.
+2. You can choose the *Free tier eligible* instance type.
+3. Make sure to set the correct VPC and subnet for each instance; also, use the provided [user-data](files/user-data.sh) to setup an HTTP server on your instances.
+4. You can select the suggested storage for your instances.
+5. You should add a *Name tag* to help identifying your instances.
+6. Both instances should be in a *Security Group* with inbound rules that accept SSH and HTTP traffic.
+7. You should secure your instances by creating a *lab-005* key pair.
+
+
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
