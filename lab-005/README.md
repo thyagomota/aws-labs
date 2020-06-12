@@ -1,20 +1,20 @@
-# Lab-999
+# Lab-005
 
 ## Lab Title
 
-Difficulty Level: 1-3
+Difficulty Level: 1
 
-Creation Date:
+Creation Date: June 11, 2020
 
-Original Author(s):
+Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 
-Contributor(s):
+Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-Explain in a sentence what is the purpose of this lab.
+The goal of this lab is to illustrate how to use an [Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/application-load-balancers.html) to distribute requests over two web servers running on distinct Availability Zones.
 
 ## Architecture Diagram
-Use AWS official architecture icons available [here](https://aws.amazon.com/architecture/icons/).
+![lab-005-arch-01](images/lab-005-arch-01.png)
 
 ## Overview
 Write a short paragraph giving some background information about the services your lab will use. Reference the [AWS Documentation](https://docs.aws.amazon.com/index.html) or any other sources that you find online and deem valid.
