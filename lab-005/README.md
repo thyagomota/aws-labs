@@ -1,6 +1,6 @@
 # Lab-005
 
-## Lab Title
+## An HTTP Load Balancer
 
 Difficulty Level: 1
 
