@@ -36,6 +36,14 @@ Create a new VPC with the *Name tag* lab-005 and the *IPv4 CIDR block* 192.168.0
 ### Step 2 - Create an Internet Gateway
 Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-005 and attach it to lab-005 VPC. This procedure is described in detail in step 2 of [lab-002](../lab-002).
 
+### Step 3 - Modify the Main Route Table
+Add a default route on your VPC to the *Internet gateway* created in the previous step.
+
+![lab-005-scrn-08](images/lab-005-scrn-08.png)
+![lab-005-scrn-09](images/lab-005-scrn-09.png)
+![lab-005-scrn-10](images/lab-005-scrn-10.png)
+![lab-005-scrn-11](images/lab-005-scrn-11.png)
+
 ### Step 3 - Launch EC2 Instances
 Launch an EC2 instance on each of the public subnets you created in the first step of this lab.
 
@@ -47,6 +55,7 @@ Launch an EC2 instance on each of the public subnets you created in the first st
 6. Both instances should be in a *Security Group* with inbound rules that accept SSH and HTTP traffic.
 7. You should secure your instances by creating a *lab-005* key pair.
 
+At this point you should be able to access both instances using a browser an the instances public IP addresses. You should be able to see the hostname of each instance as the index page. 
 
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
