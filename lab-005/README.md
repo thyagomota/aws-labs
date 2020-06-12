@@ -17,9 +17,12 @@ The goal of this lab is to illustrate how to use an [Application Load Balancer](
 ![lab-005-arch-01](images/lab-005-arch-01.png)
 
 ## Overview
-Write a short paragraph giving some background information about the services your lab will use. Reference the [AWS Documentation](https://docs.aws.amazon.com/index.html) or any other sources that you find online and deem valid.
+AWS Elastic Load Balancing (ELB) service supports three types of load balancers:
+* Application Load Balancer,
+* Network Load Balancer, and
+* Classic Load Balancer.
 
-Break this section into subsections explaining all steps needed to complete the lab. Use screenshots to create visual aids for readers that are new to AWS.
+As the name suggests, the Application Load Balancer works at the application layer and understands protocols such as HTTP. This gives the load balancer the ability to support routing rules based on the URL or the host field in the HTTP header, for example. 
 
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
