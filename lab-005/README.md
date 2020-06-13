@@ -44,7 +44,7 @@ Add a default route on your VPC to the *Internet gateway* created in the previou
 ![lab-005-scrn-10](images/lab-005-scrn-10.png)
 ![lab-005-scrn-11](images/lab-005-scrn-11.png)
 
-### Step 3 - Launch EC2 Instances
+### Step 4 - Launch EC2 Instances
 Launch an EC2 instance on each of the public subnets you created in the first step of this lab.
 
 1. You can use *Amazon Linux 2 AMI*.
@@ -55,7 +55,19 @@ Launch an EC2 instance on each of the public subnets you created in the first st
 6. Both instances should be in a *Security Group* with inbound rules that accept SSH and HTTP traffic.
 7. You should secure your instances by creating a *lab-005* key pair.
 
-At this point you should be able to access both instances using a browser an the instances public IP addresses. You should be able to see the hostname of each instance as the index page. 
+At this point you should be able to access both instances using a browser an the instances public IP addresses. You should be able to see the hostname of each instance as the index page.
+
+### Step 5 - Create an Application Load Balancer
+
+![lab-005-scrn-12](images/lab-005-scrn-12.png)
+![lab-005-scrn-13](images/lab-005-scrn-13.png)
+![lab-005-scrn-14](images/lab-005-scrn-14.png)
+![lab-005-scrn-15](images/lab-005-scrn-15.png)
+![lab-005-scrn-16](images/lab-005-scrn-16.png)
+![lab-005-scrn-17](images/lab-005-scrn-17.png)
+![lab-005-scrn-18](images/lab-005-scrn-18.png)
+![lab-005-scrn-19](images/lab-005-scrn-19.png)
+![lab-005-scrn-20](images/lab-005-scrn-20.png)
 
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
