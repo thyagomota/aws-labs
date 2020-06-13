@@ -70,6 +70,6 @@ Follow the procedure described by the screenshots.
 ![lab-005-scrn-20](images/lab-005-scrn-20.png)
 
 ## Test and Validation
-Copy the DNS name associated with the load balancer and, using a browser, try to access it. You should be able to see alternate responses (as you refresh the page) of the two instances webpages which proves that the load balancer is working properly by redirecting the request evenly within the two instances.
+Copy the DNS name associated with the load balancer and, using a browser, try to access it. You should be able to see alternate responses (as you refresh the page) of the two instances webpages which proves that the load balancer is working properly by redirecting the request evenly to the two instances.
 
 ![lab-005-scrn-21](images/lab-005-scrn-21.png)
