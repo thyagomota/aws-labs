@@ -32,6 +32,8 @@ Create a new VPC with the *Name tag* lab-005 and the *IPv4 CIDR block* 192.168.0
 ![lab-005-scrn-03](images/lab-005-scrn-03.png)
 ![lab-005-scrn-04](images/lab-005-scrn-04.png)
 ![lab-005-scrn-05](images/lab-005-scrn-05.png)
+![lab-005-scrn-06](images/lab-005-scrn-06.png)
+![lab-005-scrn-07](images/lab-005-scrn-07.png)
 
 ### Step 2 - Create an Internet Gateway
 Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-005 and attach it to lab-005 VPC. This procedure is described in detail in step 2 of [lab-002](../lab-002).
@@ -73,3 +75,5 @@ Follow the procedure described by the screenshots.
 Copy the DNS name associated with the load balancer and, using a browser, try to access it. You should be able to see alternate responses (as you refresh the page) of the two instances webpages which proves that the load balancer is working properly by redirecting the request evenly to the two instances.
 
 ![lab-005-scrn-21](images/lab-005-scrn-21.png)
+
+Another test you should do is to stop one of the instances and verify that the load balancer will not send requests to the stopped instance anymore.  
