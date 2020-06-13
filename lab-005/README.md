@@ -57,8 +57,8 @@ Launch an EC2 instance on each of the public subnets you created in the first st
 
 At this point you should be able to access both instances using a browser an the instances public IP addresses. You should be able to see the hostname of each instance as the index page.
 
-### Step 5 - Create an Application Load Balancer
-
+### Step 5 - Create the Application Load Balancer
+Follow the procedure described by the screenshots.
 ![lab-005-scrn-12](images/lab-005-scrn-12.png)
 ![lab-005-scrn-13](images/lab-005-scrn-13.png)
 ![lab-005-scrn-14](images/lab-005-scrn-14.png)
@@ -70,4 +70,6 @@ At this point you should be able to access both instances using a browser an the
 ![lab-005-scrn-20](images/lab-005-scrn-20.png)
 
 ## Test and Validation
-Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
+Copy the DNS name associated with the load balancer and, using a browser, try to access it. You should be able to see alternate responses (as you refresh the page) of the two instances webpage which proves that the load balancer is redirecting the request evenly within the two instances.
+
+![lab-005-scrn-21](images/lab-005-scrn-21.png)
