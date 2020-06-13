@@ -39,7 +39,7 @@ Create a new VPC with the *Name tag* lab-005 and the *IPv4 CIDR block* 192.168.0
 Create an [Internet gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html) with the *Name tag* lab-005 and attach it to lab-005 VPC. This procedure is described in detail in step 2 of [lab-002](../lab-002).
 
 ### Step 3 - Modify the Main Route Table
-Add a default route on your VPC to the *Internet gateway* created in the previous step.
+Add a default route on your VPC router with a destination to the *Internet gateway* created in the previous step.
 
 ![lab-005-scrn-08](images/lab-005-scrn-08.png)
 ![lab-005-scrn-09](images/lab-005-scrn-09.png)
