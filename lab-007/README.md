@@ -17,9 +17,21 @@ This lab is a continuation of [lab-006](../lab-006) with a Load Balancer added.
 ![lab-007-arch-01](images/lab-007-arch-01.png)
 
 ## Overview
-Write a short paragraph giving some background information about the services your lab will use. Reference the [AWS Documentation](https://docs.aws.amazon.com/index.html) or any other sources that you find online and deem valid.
 
-Break this section into subsections explaining all steps needed to complete the lab. Use screenshots to create visual aids for readers that are new to AWS.
+### Step 1 - Create the Application Load Balancer
+
+Follow [step 5 of lab-005](../lab-005), but do not add any targets to the load balancer target group.  
+
+### Step 2 - Edit the Auto Scaling Group
+
+Edit the auto scaling group adding the load balancer target group created in the previous step.
+![lab-007-scrn-01](images/lab-007-scrn-01.png)
+![lab-007-scrn-02](images/lab-007-scrn-02.png)
 
 ## Test and Validation
-Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
+Copy the DNS name associated with the load balancer and, using a browser, try to access it. You should be able to see the response associated with the only EC2 instance that is running and automatically created by the auto scaling. Now connect to this instance through SSH and run the following commands to artificially increase CPU utilization.
+
+```
+stress -c 200
+```
+You can then begin monitoring the instance's CPU utilization increase and verify than when it reaches 75% or above a new EC2 instance will automatically be launched by the auto scaling service. After that, using the DNS associated with the load balancer, try to verify if you are able to see responses from both instances as you refresh the page. This test proves that the load balancer is working properly by redirecting the request evenly to the two instances.
