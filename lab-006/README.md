@@ -46,7 +46,14 @@ Get the user data script [here](files/user-data.sh) which will install a stress 
 ![lab-006-scrn-16](images/lab-006-scrn-16.png)
 
 ## Test and Validation
-The EC2 Auto Scaling service must automatically launch one EC2 instance based on the EC2 launch configuration that you created. Connect to this instance through SSH and run the following commands to artificially increase CPU utilization. You can monitor the CPU's utilization increase and verify than when it reaches 75% or above a new EC2 instance will automatically be launched by the auto scaling service.
+The EC2 Auto Scaling service must automatically launch one EC2 instance based on the EC2 launch configuration that you created. Connect to this instance through SSH and run the following commands to artificially increase CPU utilization.
+
+```
+stress -c 200
+```
+
+You can then begin monitoring the instance's CPU utilization increase and verify than when it reaches 75% or above a new EC2 instance will automatically be launched by the auto scaling service.
+
 ![lab-006-scrn-17](images/lab-006-scrn-17.png)
 ![lab-006-scrn-18](images/lab-006-scrn-18.png)
 ![lab-006-scrn-19](images/lab-006-scrn-19.png)
