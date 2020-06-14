@@ -1,6 +1,6 @@
 # Lab-006
 
-## An EC2 Auto Scaling Example
+## Simple EC2 Auto Scaling
 
 Difficulty Level: 1
 
