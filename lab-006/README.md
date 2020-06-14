@@ -17,9 +17,24 @@ This lab goal is to illustrate how to setup a simple EC2 auto scaling service. Y
 ![lab-006-arch-01](images/lab-006-arch-01.png)
 
 ## Overview
-Write a short paragraph giving some background information about the services your lab will use. Reference the [AWS Documentation](https://docs.aws.amazon.com/index.html) or any other sources that you find online and deem valid.
+The EC2 Auto Scaling service enables automatically launching EC2 instances based on pre-defined conditions. A common scenario for auto scaling is launching more instances to cope with a sudden demand increase, for example. Two concepts are key to understand how AWS auto scaling works:
 
-Break this section into subsections explaining all steps needed to complete the lab. Use screenshots to create visual aids for readers that are new to AWS.
+* Launch Configurations: it allows creating EC2 configurations so the service knows what type of EC2 instance to create when needed; and
+* Auto Scaling Groups: a logical group of EC2 instances controlled by the auto scaling service.
+
+Begin this lab by running steps 1-3 of [lab-005](../lab-005), making sure to replace any references to lab-005 with lab-006. Then follow the steps described next.
+
+### Step 1 - Create a Launch Configuration
+![lab-006-scrn-01](images/lab-006-scrn-01.png)
+![lab-006-scrn-02](images/lab-006-scrn-02.png)
+![lab-006-scrn-03](images/lab-006-scrn-03.png)
+![lab-006-scrn-04](images/lab-006-scrn-04.png)
+Get the user data script [here](files/user-data.sh) which will install a stress tool and launch an Apache web server. 
+![lab-006-scrn-05](images/lab-006-scrn-05.png)
+![lab-006-scrn-06](images/lab-006-scrn-06.png)
+![lab-006-scrn-07](images/lab-006-scrn-07.png)
+![lab-006-scrn-08](images/lab-006-scrn-08.png)
+
 
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
