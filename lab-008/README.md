@@ -15,6 +15,8 @@ This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling 
 
 ## Architecture Diagram
 
+![lab-008-arch-01](images/lab-008-arch-01.png)
+
 ### Step 1 - Create VPC, Subnets, and Internet Gateway
 
 [![play button](../images/play.png)](https://youtu.be/mdeJwTgYISM)
