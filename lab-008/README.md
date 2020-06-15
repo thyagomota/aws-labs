@@ -15,7 +15,7 @@ This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling 
 
 ## Architecture Diagram
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mdeJwTgYISM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+video: https://www.youtube.com/embed/mdeJwTgYISM
 
 ## Overview
 
