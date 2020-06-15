@@ -15,13 +15,29 @@ This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling 
 
 ## Architecture Diagram
 
-### Step 1 - Create VPC, Subnets, and Routing
+### Step 1 - Create VPC, Subnets, and Internet Gateway
 
 [![play button](../images/play.png)](https://youtu.be/mdeJwTgYISM)
 
-## Overview
+### Step 2 - Update Main Route Table and Configure Nat Gateways
 
-[lab-008-scrn-01](https://youtu.be/mdeJwTgYISM)
+[![play button](../images/play.png)](https://youtu.be/WGmnhG2776w)
+
+### Step 3 - Create new Route Tables
+
+[![play button](../images/play.png)](https://youtu.be/iRKn6E9oAkw)
+
+### Step 4 - Configure Security Groups
+
+[![play button](../images/play.png)](https://youtu.be/1rHmipkioz8)
+
+### Step 5 - Configure Auto Scaling
+
+[![play button](../images/play.png)](https://youtu.be/Y9TsaUH-j94)
+
+### Step 6 - Configure the Application Load Balancer
+
+[![play button](../images/play.png)](https://youtu.be/erKmAX9E6dI)
 
 ## Test and Validation
-Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
+Copy the public address of the load balancer and see if you can access the web server that is running on the EC2 instance that was auto-launched by the auto scaling service. 
