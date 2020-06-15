@@ -40,4 +40,7 @@ This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling 
 [![play button](../images/play.png)](https://youtu.be/erKmAX9E6dI)
 
 ## Test and Validation
-Copy the public address of the load balancer and see if you can access the web server that is running on the EC2 instance that was auto-launched by the auto scaling service. 
+Copy the public address of the load balancer and see if you can access the web server that is running on the EC2 instance that was auto-launched by the auto scaling service.
+
+## Challenge
+Modify this lab to use only one Nat gateway instead of two. Also, start the auto scaling group with two instances instead of only one.
