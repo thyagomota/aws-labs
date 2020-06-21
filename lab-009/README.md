@@ -40,9 +40,17 @@ Below are some of the main options you should select:
 
 ![lab-009-scrn-01](images/lab-009-scrn-01.png)
 
-### Step 3 - Launch EC2 Instance
+### Step 3 - Launch an EC2 Instance
 
-Configure an EC2 instance in the public subnet in the same AZ where your RDS instance was launched. Use the [user-data](files/user-data.sh).  
+Configure an EC2 instance in the public subnet in the same AZ where your RDS instance was launched. Use the [user-data](files/user-data.sh). Create a security group that allows SSH and HTTP access to your instance from anywhere.
+
+### Step 4 - Apply RDS Security Group to EC2 Instance
+
+In order for your EC2 instance to be able to access the RDS instance it has to be in the same security group created in step 2.
+
+![lab-009-scrn-02](images/lab-009-scrn-02.png)
+![lab-009-scrn-03](images/lab-009-scrn-03.png)
+
 
 ## Test and Validation
 Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
