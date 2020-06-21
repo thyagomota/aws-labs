@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling group is configured to create the EC2 instances in the private subnet. Also, two security groups control traffic in and out of the application load balancer and the EC2 instances in the private subnets. To enable the EC2 instances in the private subnet to respond to requests coming from the internet, NAT gateways were configured on the public subnets of the VPC.
+This is lab is similar to [lab-007](../lab-007) with a caveat: the auto scaling group is configured to create the EC2 instances in the private subnet. Also, two security groups control traffic in and out of the application load balancer and the EC2 instances (in the private subnets). To enable the EC2 instances to respond to requests coming from the internet, NAT gateways were configured on the public subnets of the VPC.
 
 ## Architecture Diagram
 
