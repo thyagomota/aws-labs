@@ -42,6 +42,6 @@ Create the replica in a different AZ. Also, have it in the same security group *
 
 Have the phpMyAdmin configuration to first connect to the primary (master) database instance. Create a table (or modify and existing one). You should be able to do it.
 
-Then try to connect to the read replica instead.  Note that the read replica cluster has a different endpoint. You should be able to see the table modification that you did previously. Now try to *modify* the database (create a table or modify an existing one). You should not be able to do that now and the database is running in read-only mode.
+Then try to connect to the read replica instead.  Note that the read replica cluster has a different endpoint. You should be able to see the table modification that you did previously. Now try to *modify* the database (create a table or modify an existing one). You should not be able to do that now as the database is running in read-only mode.
 
 ![lab-011-scrn-03](images/lab-011-scrn-03.png)
