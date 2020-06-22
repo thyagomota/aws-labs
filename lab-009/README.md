@@ -35,7 +35,7 @@ Below are some of the main options you should select:
 * DB instance size: Standard classes
 * Storage: default options are fine for this lab
 * Multi-az deployment: if you selected the *free tier* template you should not even be able to select *multi-az deployment* options
-* Connectivity: set your custom VPC as the one where your RDS instance will run; in the additional connectivity configuration - VPC security group, choose *Create new* and name it *lab009sg*; finally for the availability zone choose the one suffixed with 1a (or the first option that appears to you)
+* Connectivity: set your custom VPC to be the one where your RDS instance will run; in the additional connectivity configuration - VPC security group, choose *Create new* and name it *lab009sg*; finally for the availability zone choose the one suffixed with 1a (or the first option that appears to you)
 * Additional configurations: set the initial database name to *lab009* and disable automatic backups
 
 ![lab-009-scrn-01](images/lab-009-scrn-01.png)
