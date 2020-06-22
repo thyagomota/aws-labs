@@ -30,12 +30,12 @@ Below are some of the main options you should select:
 * Database creation method: Standard Create
 * Engine option: MySQL
 * Templates: Free tier
-* DB instance identifier: lab-009
+* DB instance identifier: lab009
 * Master password: 12345678 (not safe but this is just a lab)
 * DB instance size: Standard classes
 * Storage: default options are fine for this lab
 * Multi-az deployment: if you selected the *free tier* template you should not even be able to select *multi-az deployment* options
-* Connectivity: set your custom VPC as the one where your RDS instance will run; in the additional connectivity configuration - VPC security group, choose *Create new* and name it *lab-009sg*; finally for the availability zone choose the one suffixed with 1a (or the first option that appears to you)
+* Connectivity: set your custom VPC as the one where your RDS instance will run; in the additional connectivity configuration - VPC security group, choose *Create new* and name it *lab009sg*; finally for the availability zone choose the one suffixed with 1a (or the first option that appears to you)
 * Additional configurations: set the initial database name to *lab009* and disable automatic backups
 
 ![lab-009-scrn-01](images/lab-009-scrn-01.png)
@@ -44,13 +44,35 @@ Below are some of the main options you should select:
 
 Configure an EC2 instance in the public subnet in the same AZ where your RDS instance was launched. Use the [user-data](files/user-data.sh). Create a security group that allows SSH and HTTP access to your instance from anywhere.
 
-### Step 4 - Apply RDS Security Group to EC2 Instance
+### Step 4 - Apply RDS's Security Group to EC2 Instance
 
 In order for your EC2 instance to be able to access the RDS instance it has to be in the same security group created in step 2.
 
 ![lab-009-scrn-02](images/lab-009-scrn-02.png)
 ![lab-009-scrn-03](images/lab-009-scrn-03.png)
 
+### Step 5 - Configure phpMyAdmin
+
+* Connect to your EC2 instance via SSH
+* Run the following commands (requires privileged access):
+
+```
+cd /var/www/html
+tar xvf phpMyAdmin-latest-all-languages.tar.gz
+rm -rf phpMyAdmin-latest-all-languages.tar.gz
+ln -s phpMyAdmin-5.0.2-all-languages phpMyAdmin
+cd phpMyAdmin
+cp config.sample.inc.php config.inc.php
+```
+
+Edit *config.inc.php* and search for a reference to *localhost*. Replace it with your RDS instance endpoint.
+
+![lab-009-scrn-04](images/lab-009-scrn-04.png)
 
 ## Test and Validation
-Provide some guidance on how to test the lab and validate whether it is doing what is suppose to do.
+
+Open a browser and using the EC2 instance's public IP address, connect to the database via phpMyAdmin.
+
+```
+http://<public IP EC2 instance>/phpMyAdmin
+```
