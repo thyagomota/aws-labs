@@ -25,7 +25,7 @@ Go to Database - Dynamodb service and click on *Create table*.
 ![lab-012-scrn-03](images/lab-012-scrn-03.png)
 ![lab-012-scrn-04](images/lab-012-scrn-04.png)
 
-### Step 2 - Create an Access Key
+### Step 2 - Create and Download an Access Key
 
 Go to IAM - Users and then select your user. Then go to *Security credentials* and create an access key. Download the key you created (a csv file) and use it on the next step.
 
