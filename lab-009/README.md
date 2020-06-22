@@ -44,12 +44,19 @@ Below are some of the main options you should select:
 
 Configure an EC2 instance in the public subnet in the same AZ where your RDS instance was launched. Use the [user-data](files/user-data.sh). Create a security group that allows SSH and HTTP access to your instance from anywhere.
 
-### Step 4 - Apply RDS's Security Group to EC2 Instance
+### Step 4 - Modify RDS's Security Group
 
-In order for your EC2 instance to be able to access the RDS instance it has to be in the same security group created in step 2.
+Modify the inbound rule of the RDS's security group to enable access from the EC2's instance.
 
 ![lab-009-scrn-02](images/lab-009-scrn-02.png)
 ![lab-009-scrn-03](images/lab-009-scrn-03.png)
+
+### Step 5 - Apply RDS's Security Group to EC2 Instance
+
+In order for your EC2 instance to be able to access the RDS instance it has to be in the same security group created in step 2.
+
+![lab-009-scrn-04](images/lab-009-scrn-04.png)
+![lab-009-scrn-05](images/lab-009-scrn-05.png)
 
 ### Step 5 - Configure phpMyAdmin
 
@@ -63,11 +70,12 @@ rm -rf phpMyAdmin-latest-all-languages.tar.gz
 ln -s phpMyAdmin-5.0.2-all-languages phpMyAdmin
 cd phpMyAdmin
 cp config.sample.inc.php config.inc.php
+
 ```
 
 Edit *config.inc.php* and search for a reference to *localhost*. Replace it with your RDS instance endpoint.
 
-![lab-009-scrn-04](images/lab-009-scrn-04.png)
+![lab-009-scrn-06](images/lab-009-scrn-06.png)
 
 ## Test and Validation
 
@@ -76,3 +84,5 @@ Open a browser and using the EC2 instance's public IP address, connect to the da
 ```
 http://<public IP EC2 instance>/phpMyAdmin
 ```
+
+![lab-009-scrn-07](images/lab-009-scrn-07.png)
