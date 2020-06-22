@@ -26,7 +26,7 @@ Follow the steps described in [lab-009](../lab-009) with the following changes w
 * DB instance identifier: lab011
 * DB instance size: select *Burstable classes* and pick the *db.t2.small*
 * Connectivity: set your custom VPC to be the one where your RDS instance will run; in the additional connectivity configuration - VPC security group, choose *Create new* and name it *lab011sg*; finally for the availability zone choose the one suffixed with 1a (or the first option that appears to you)
-* Additional configurations: set the initial database name to *lab010* and make sure *automatic backups* is enabled.
+* Additional configurations: set the initial database name to *lab011* and make sure *automatic backups* is enabled.
 
 ### Step 1 - Create Read Replica
 
