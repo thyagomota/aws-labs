@@ -70,7 +70,6 @@ rm -rf phpMyAdmin-latest-all-languages.tar.gz
 ln -s phpMyAdmin-5.0.2-all-languages phpMyAdmin
 cd phpMyAdmin
 cp config.sample.inc.php config.inc.php
-
 ```
 
 Edit *config.inc.php* and search for a reference to *localhost*. Replace it with your RDS instance endpoint.
