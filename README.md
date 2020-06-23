@@ -43,3 +43,5 @@ This lab illustrates how to create and remotely access a dynamodb table.  Dynamo
 The goal of this lab is to illustrate how to create an S3 bucket and access it from a client computer via AWS CLI (command-line interface).
 ### Lab-014 - An S3 Bucket Accessed via an S3 Gateway Endpoint
 The goal of this lab is to illustrate how to access an S3 bucket from an EC2 instance in a private subnet using an S3 gateway endpoint.
+### Lab-015 - An S3 Bucket Accessed via AWS CLI + Resource Policy
+This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource policy based on the client computer's source IP.  
