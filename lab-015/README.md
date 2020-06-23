@@ -21,7 +21,7 @@ Repeat steps 1 and 2 of [lab-013](../lab-013), changing the name of the bucket t
 
 Because the policy we want to create is based on the IP of the computer we will be using to access the s3 bucket, use [whatismyip.com](https://www.whatismyip.com/) to determine what is your computer's current IP.
 
-An easy way to create a policy is to use the [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html) tool.  Use this [policy](files/policy.json) as an example. Don't forget to replace <YOUR IP> with your client computer's IP address.
+An easy way to create a policy is to use the [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html) tool.  Use this [policy](files/policy.json) as an example. Don't forget to replace *YOUR IP* with your client computer's IP address.
 
 ### Step 2 - Apply Policy to Bucket
 
