@@ -1,0 +1,18 @@
+{
+  "Id": "Policy1592941824972",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1592941812409",
+      "Action": "s3:*",
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::lab015-bucket",
+      "Condition": {
+        "NotIpAddress": {
+          "aws:SourceIp": "<YOUR IP>/32"
+        }
+      },
+      "Principal": "*"
+    }
+  ]
+}
