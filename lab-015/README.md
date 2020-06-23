@@ -1,4 +1,4 @@
-# Lab-013
+# Lab-015
 
 ## S3 Bucket Accessed via AWS CLI
 
@@ -11,14 +11,28 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s):
 
 ## Goal
-The goal of this lab is to illustrate how to create an S3 bucket and access it from a client computer via AWS CLI (command-line interface).
-
-## Architecture Diagram
-
-![lab-013-arch-01](images/lab-013-arch-01.png)
+This lab is similar to [lab-013](../lab-013). However, instead of using a user access key we will be allowing access to the s3 bucket based on a resource policy that enables access from a computer based on its source IP.  
 
 ## Overview
-Amazon S3 (Simple Storage Service) is an object-based storage service. An object is a file with attributes like name, value, access control info, etc. Access to objects in S3 is done through an API. Amazon S3 use containers called buckets to store objects. Bucket names are globally unique.
+
+Repeat steps 1 and 2 of [lab-013](../lab-013), changing the name of the bucket to *lab015-bucket*.
+
+### Step 1 - Create a Resource Policy
+
+Because the policy we want to create is based on the IP of the computer we will be using to access the s3 bucket, use [whatismyip.com](https://www.whatismyip.com/) to determine what is your computer's current IP.
+
+An easy way to create a policy is to use the [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html) tool.  Use the following parameters:
+
+* Type of policy: *S3 Bucket Policy*
+* Statement - Effect: Allow
+* Statement - Principal: *
+* Statement - Actions: mark *All Actions*
+* Statement - Amazon Resource Name (ARN): arn:aws:s3:::lab015-bucket
+* Statement - Add Condition: *IpAddress* (condition), *aws:SourceIp* (key), <your IP>/32 (value)
+
+
+
+
 
 ### Step 1 - Create an S3 Bucket
 
