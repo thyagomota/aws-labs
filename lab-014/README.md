@@ -20,9 +20,9 @@ The goal of this lab is to illustrate how to access an S3 bucket from an EC2 ins
 ## Overview
 The architecture diagram illustrates the steps we will have to take to demonstrate how the EC2 instance in the private subnet can still access an S3 bucket even if the instance does not have access to the internet.
 
-1. From the client you can connect to a bastion host configure in the public subnet (see [lab-002](../lab-002));
+1. From the client you can connect to a bastion host configured in the public subnet (see [lab-002](../lab-002));
 2. From the bastion host you can then connect to the EC2 instance in the private subnet;
-3. From the EC2 instance you can connect to an S3 gateway endpoint, and then
+3. From the EC2 instance you can use the S3 gateway endpoint, to ...
 4. Access the S3 bucket.  
 
 ### Step 1 - Initial Setup
