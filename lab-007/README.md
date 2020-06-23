@@ -1,6 +1,6 @@
 # Lab-007
 
-## Simple EC2 Auto Scaling + Load Balancing
+## A Simple EC2 Auto Scaling + Load Balancing
 
 Difficulty Level: 1
 

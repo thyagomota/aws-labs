@@ -1,6 +1,6 @@
 # Lab-009
 
-## Standalone RDS Instance Running MySQL
+## A Standalone RDS Instance Running MySQL
 
 Difficulty Level: 2
 

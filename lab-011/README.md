@@ -1,6 +1,6 @@
 # Lab-011
 
-## RDS Instance with a Read Replica
+## An RDS Instance with a Read Replica
 
 Difficulty Level: 2
 

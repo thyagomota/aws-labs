@@ -1,6 +1,6 @@
 # Lab-010
 
-## RDS Instance with a Standby
+## An RDS Instance with a Standby
 
 Difficulty Level: 2
 

@@ -1,6 +1,6 @@
 # Lab-013
 
-## S3 Bucket Accessed via AWS CLI
+## An S3 Bucket Accessed via AWS CLI
 
 Difficulty Level: 1
 
