@@ -1,6 +1,6 @@
 # Lab-015
 
-## An S3 Bucket Accessed via AWS CLI and a Resource Policy in Place
+## An S3 Bucket Accessed via AWS CLI + Resource Policy
 
 Difficulty Level: 1
 
