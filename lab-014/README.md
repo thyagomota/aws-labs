@@ -51,20 +51,20 @@ First list all of your buckets using:
 aws s3 ls
 ```
 
-If you want to list the objects (and folders) of your *lab013-bucket* bucket try:
+If you want to list the objects (and folders) of your *lab014-bucket* bucket try:
 
 ```
-aws s3 ls s3://lab013-bucket
+aws s3 ls s3://lab014-bucket
 ```
 
 Try uploading some files using:
 
 ```
-aws s3 cp file1.txt s3://lab013-bucket
+aws s3 cp file1.txt s3://lab014-bucket
 ```
 
 To illustrate downloading a file you can try:
 
 ```
-aws s3 cp s3://lab013-bucket/file1.txt file1-copied-back.txt
+aws s3 cp s3://lab014-bucket/file1.txt file1-copied-back.txt
 ```
