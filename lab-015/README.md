@@ -31,7 +31,7 @@ An easy way to create a policy is to use the [AWS Policy Generator](https://awsp
 
 Verify that with the policy you are able to have full access to the s3 bucket. Try changing the IP address of the policy (or accessing it from a computer with a different public IP) and verify that access is denied after that.
 
-In order to be able to regain access to the bucket you need to use the root credential to remove the policy.  Use the following command to do so:
+In order to be able to regain access to the bucket you need to use the root credential to remove the policy.  Use the following command to do so (must use root's credentials):
 
 ```
 aws s3api delete-bucket-policy --bucket lab015-bucket
