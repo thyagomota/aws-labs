@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s):
 
 ## Goal
-This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource policy based on the client computer's source IP.  
+This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource-based policy allow access only from a specific source IP.    
 
 ## Overview
 

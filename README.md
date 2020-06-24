@@ -70,6 +70,6 @@ The goal of this lab is to illustrate how to create an S3 bucket and access it f
 
 The goal of this lab is to illustrate how to access an S3 bucket from an EC2 instance in a private subnet using an S3 gateway endpoint.
 
-[Lab-015 - An S3 Bucket Accessed via AWS CLI + Resource Policy](lab-015)
+[Lab-015 - An S3 Bucket Accessed via AWS CLI + Resource-based Policy](lab-015)
 
-This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource policy based on the client computer's source IP.  
+This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource-based policy allow access only from a specific source IP.  
