@@ -1,6 +1,6 @@
 # Lab-014
 
-## S3 Bucket Accessed via an S3 Gateway Endpoint
+## An S3 Bucket Accessed via an S3 Gateway Endpoint
 
 Difficulty Level: 2
 
