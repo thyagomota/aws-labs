@@ -72,4 +72,4 @@ The goal of this lab is to illustrate how to access an S3 bucket from an EC2 ins
 
 [Lab-015 - An S3 Bucket Accessed via AWS CLI + Resource-based Policy](lab-015)
 
-This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource-based policy allow access only from a specific source IP.  
+This lab is similar to [lab-013](../lab-013). However, we will be creating a resource-based policy to only allow access to the bucket if requests are sent from a specific IP.  

@@ -11,13 +11,13 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s):
 
 ## Goal
-This lab is similar to [lab-013](../lab-013). However, instead of using a user access key to grant access from the client computer we will be setting a resource-based policy allow access only from a specific source IP.    
+This lab is similar to [lab-013](../lab-013). However, we will be creating a resource-based policy to only allow access to the bucket if requests are sent from a specific IP.
 
 ## Overview
 
 Repeat steps 1 and 2 of [lab-013](../lab-013), changing the name of the bucket to *lab015-bucket*.
 
-### Step 1 - Create a Resource Policy
+### Step 1 - Create a Resource-based Policy
 
 Because the policy we want to create is based on the IP of the computer we will be using to access the s3 bucket, use [whatismyip.com](https://www.whatismyip.com/) to determine what is your computer's current IP.
 
