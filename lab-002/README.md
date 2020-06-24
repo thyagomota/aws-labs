@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-The goal of this lab is to demonstrate how to access a Linux EC2 instance launched in a private subnet from a internet host via SSH.
+The goal of this lab is to demonstrate how to access an EC2 instance launched in a private subnet using a bastion host. 
 
 ## Architecture Diagram
 ![lab-002-arch-01](images/lab-002-arch-01.png)

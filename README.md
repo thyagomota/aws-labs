@@ -21,7 +21,7 @@ The goal of this lab is to launch a single EC2 instance in a public subnet acces
 
 [Lab-002 - A Single EC2 Instance in a Private Subnet + Bastion Host](lab-002)
 
-The goal of this lab is to demonstrate how to access an EC2 instance launched in a private subnet from a internet host via SSH.
+The goal of this lab is to demonstrate how to access an EC2 instance launched in a private subnet using a bastion host. 
 
 [Lab-003 - An EC2 Instance in a Private Subnet with Internet Access](lab-003)
 
