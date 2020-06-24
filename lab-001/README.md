@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-The goal of this lab is to launch a Linux EC2 instance in a public subnet accessible over the Internet via SSH.
+The goal of this lab is to launch a single EC2 instance in a public subnet accessible over the Internet via SSH.
 
 ## Architecture Diagram
 ![lab-001-arch-01](images/lab-001-arch-01.png)
@@ -37,7 +37,7 @@ In the EC2 service menu, click on *Launch instance* and select *Launch Instance*
 
 ![lab-001-scrn-02](images/lab-001-scrn-02.png)
 
-Select *Amazon Linux 2 AMI*. An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance. In this first lab, we will stick to the x86 architecture. 
+Select *Amazon Linux 2 AMI*. An AMI is a template that contains the software configuration (operating system, application server, and applications) required to launch your instance. In this first lab, we will stick to the x86 architecture.
 
 ![lab-001-scrn-03](images/lab-001-scrn-03.png)
 
