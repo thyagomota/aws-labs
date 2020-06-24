@@ -27,7 +27,7 @@ The goal of this lab is to demonstrate how to access an EC2 instance launched in
 
 This lab illustrates how an EC2 instance running in a *private* subnet can be configured to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
 
-[Lab-004 - An EC2 Instance in a Private Subnet with Internet Access](lab-004)
+[Lab-004 - A Single EC2 Instance in a Private Subnet + Bastion Host + Nat Instance](lab-004)
 
 This lab is similar to [lab-003](lab-003) but instead of using a *Nat gateway* you are asked to use a [Nat instance](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html).
 

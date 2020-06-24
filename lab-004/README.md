@@ -1,6 +1,6 @@
 # Lab-004
 
-## An EC2 Instance in a Private Subnet with Internet Access
+## A Single EC2 Instance in a Private Subnet + Bastion Host + Nat Instance
 
 Difficulty Level: 1
 
