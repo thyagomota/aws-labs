@@ -16,11 +16,17 @@ I hope you enjoy these labs. Suggestions and contributions are welcomed. Thanks!
 ## Labs Summary
 
 [Lab-001 - A Single Linux EC2 Instance](lab-001)
-* The goal of this lab is to launch a Linux EC2 instance in a public subnet accessible over the Internet via SSH.
+
+The goal of this lab is to launch a Linux EC2 instance in a public subnet accessible over the Internet via SSH.
+
 [Lab-002 - Accessing an EC2 Instance in a Private Subnet from an Internet Host](lab-002)
-* The goal of this lab is to demonstrate how to access a Linux EC2 instance launched in a private subnet from a internet host via SSH.
-### Lab-003 - An EC2 Instance in a Private Subnet with Internet Access
+
+The goal of this lab is to demonstrate how to access a Linux EC2 instance launched in a private subnet from a internet host via SSH.
+
+[Lab-003 - An EC2 Instance in a Private Subnet with Internet Access](lab-003)
+
 This lab illustrates how an EC2 instance running in a *private* subnet can be configured to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
+
 ### Lab-004 - An EC2 Instance in a Private Subnet with Internet Access
 This lab is similar to [lab-003](lab-003) but instead of using a *Nat gateway* you are asked to use a [Nat instance](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html).
 ### Lab-005 - An HTTP Load Balancer
