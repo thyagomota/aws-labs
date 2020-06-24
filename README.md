@@ -37,7 +37,7 @@ The goal of this lab is to illustrate how to use an [Application Load Balancer](
 
 [Lab-006 - A Simple EC2 Auto Scaling](lab-006)
 
-This lab goal is to illustrate how to setup a simple EC2 auto scaling service. You will create an auto scaling group with initially only one EC2 instance running. But you will create a rule that will automatically launch a second EC2 instance when the CPU usage of the first instance reaches 75%.
+This goal of this lab is to illustrate how to setup a simple EC2 auto scaling service. You will create an auto scaling group with initially only one EC2 instance running. A rule will be setup to automatically launch a second EC2 instance when the CPU usage of the first instance reaches 75%.
 
 [Lab-007 - A Simple EC2 Auto Scaling + Load Balancing](lab-007)
 
