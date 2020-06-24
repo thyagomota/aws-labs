@@ -1,6 +1,6 @@
 # Lab-002
 
-## Accessing an EC2 Instance in a Private Subnet from an Internet Host
+## A Single EC2 Instance in a Private Subnet + Bastion Host
 
 Difficulty Level: 1
 
