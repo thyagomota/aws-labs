@@ -1,6 +1,6 @@
 # Lab-003
 
-## An EC2 Instance in a Private Subnet with Internet Access
+## A Single EC2 Instance in a Private Subnet + NAT Gateway
 
 Difficulty Level: 1
 
