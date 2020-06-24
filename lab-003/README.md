@@ -1,6 +1,6 @@
 # Lab-003
 
-## A Single EC2 Instance in a Private Subnet + NAT Gateway
+## A Single EC2 Instance in a Private Subnet + Bastion Host + NAT Gateway
 
 Difficulty Level: 1
 

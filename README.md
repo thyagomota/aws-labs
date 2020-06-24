@@ -23,7 +23,7 @@ The goal of this lab is to launch a single EC2 instance in a public subnet acces
 
 The goal of this lab is to demonstrate how to access an EC2 instance launched in a private subnet using a bastion host.
 
-[Lab-003 - A Single EC2 Instance in a Private Subnet + NAT Gateway](lab-003)
+[Lab-003 - A Single EC2 Instance in a Private Subnet + Bastion Host + NAT Gateway](lab-003)
 
 This lab illustrates how an EC2 instance running in a *private* subnet can be configured to access the internet with the help of a service called [Nat gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html).
 
