@@ -15,7 +15,7 @@ I hope you enjoy these labs. Suggestions and contributions are welcomed. Thanks!
 
 ## Index
 
-[Lab-001 - A Single Linux EC2 Instance](lab-001)
+[Lab-001 - A Single EC2 Instance](lab-001)
 
 The goal of this lab is to launch a single EC2 instance in a public subnet accessible over the Internet via SSH.
 

@@ -1,6 +1,6 @@
 # Lab-001
 
-## A Single Linux EC2 Instance
+## A Single EC2 Instance
 
 Difficulty Level: 1
 
