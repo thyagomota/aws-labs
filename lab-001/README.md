@@ -89,7 +89,7 @@ You will be forwarded to a new screen with the launch status.
 
 Go on to _View Instances_ to return to the EC2 Console. There you will a list of existing instances and the new instance you just created.
 
-## Testint your Instance.
+## Test & Validation
 
 Once your instance is up and running, select it on the EC2 console and click on *Connect*.
 
