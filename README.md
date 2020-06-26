@@ -77,3 +77,7 @@ This lab is similar to [lab-013](../lab-013). However, we will be creating a res
 [Lab-016 - Moving an EBS Volume Between EC2 Instances](lab-016)
 
 The goal of this lab is to illustrate how to move an EBS volume from one EC2 instance to another.
+
+[Lab-017 - Snapshot an EBS Volume](lab-017)
+
+This lab's goal is similar to [lab-016](lab-016) but because we want to move a volume from one AZ to another we will have to first create a snapshot of the volume and then create a new volume from the snapshot.
