@@ -36,7 +36,7 @@ xvda    202:0    0   8G  0 disk
 xvdb    202:16   0   8G  0 disk
 ```
 
-The device */dev/xvda* is the boot volume, mounted at the root level. The device */dev/xvdb* must be the EBS volume we mounted. Run the following commands to format and mount the disk:
+The device */dev/xvda* is the boot volume, mounted at the root level. The device */dev/xvdb* must be the EBS volume that we created. Run the following commands to format and mount the disk:
 
 ```
 sudo mkfs.ext4 /dev/xvdb
