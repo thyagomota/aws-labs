@@ -18,7 +18,7 @@ The goal of this lab is to illustrate how to create and share an NFS file system
 
 ## Overview
 
-Create two EC2 instances in different AZs (you can use public subnets). Create an NFS file system using EFS and mount in using one of the EC2 instances. Create some files for testing purposes. Then try to mount and access the file system from the other EC2 instance. Note that the access should be simultaneously.
+Create two EC2 instances in different AZs (you can use public subnets). Create an NFS file system using EFS and mount it using one of the EC2 instances. Create some files for testing purposes. Then try to mount and access the file system from the other EC2 instance. Note that the access should work simultaneously.
 
 ### Step 1 - VPC Setup
 
