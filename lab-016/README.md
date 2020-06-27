@@ -54,7 +54,7 @@ sudo touch data/test3.txt
 
 ### Step 3 - Terminate the EC2 Instance
 
-This step illustrate the fact that when you terminate an EC2 instance non-boot volumes are not deleted by default. Go to *Elastic Block Store - Volumes* and verify that your EBS volume is still available even after the EC2 instance is terminated.
+This step illustrates the fact that when you terminate an EC2 instance, non-boot volumes are not deleted by default. Go to *Elastic Block Store - Volumes* and verify that your EBS volume is still available even after the EC2 instance is terminated.
 
 ![lab-016-scrn-03](images/lab-016-scrn-03.png)
 

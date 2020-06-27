@@ -81,3 +81,7 @@ The goal of this lab is to illustrate how to move an EBS volume from one EC2 ins
 [Lab-017 - Snapshot an EBS Volume](lab-017)
 
 This lab's goal is similar to [lab-016](lab-016) but because we want to move a volume from one AZ to another we will have to first create a snapshot of the volume and then create a new volume from the snapshot.
+
+[Lab-018 - Creating and Sharing an NFS File System via EFS](lab-018)
+
+The goal of this lab is to illustrate how to create and share an NFS file system using AWS [EFS](https://aws.amazon.com/efs/) service.

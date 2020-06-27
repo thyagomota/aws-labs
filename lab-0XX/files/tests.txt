@@ -19,3 +19,21 @@ aws --profile lukas s3 cp s3://lab016-bucket/confidential/file1.txt .
 aws --profile lukas s3 cp file1.txt s3://lab016-bucket/confidential/file1-lukas.txt
 
 # tests with user anita
+
+# list contents of the root folder
+aws --profile anita s3 ls s3://lab016-bucket/
+
+# download a file from the root folder
+aws --profile anita s3 cp s3://lab016-bucket/file3.txt .
+
+# upload a file to the root folder
+aws --profile anita s3 cp file3.txt s3://lab016-bucket/file3-anita.txt
+
+# list contents of the confidential folder
+aws --profile anita s3 ls s3://lab016-bucket/confidential/
+
+# download a file from the confidential folder
+aws --profile anita s3 cp s3://lab016-bucket/confidential/file1.txt .
+
+# upload a file to the confidential folder
+aws --profile anita s3 cp file1.txt s3://lab016-bucket/confidential/file1-anita.txt
