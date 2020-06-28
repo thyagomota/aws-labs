@@ -25,4 +25,4 @@ If you choose *Amazon Linux 2 AMI* it already comes with the SSM agent pre-insta
 
 ## Test and Validation
 
-Go to *Systems Manager - Managed Instances*, select your EC2 instance and, using the actions drop-down menu, start a session to connect to your instance via Systems Manager. 
+Go to *Systems Manager - Managed Instances*, select your EC2 instance and, using the actions drop-down menu, start a session to connect to your instance via Systems Manager.
