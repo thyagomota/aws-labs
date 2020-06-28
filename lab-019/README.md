@@ -1,6 +1,6 @@
 # Lab-019
 
-## Connection to an EC2 Instance via Systems Manager
+## Connecting to an EC2 Instance via Systems Manager
 
 Difficulty Level: 1
 
