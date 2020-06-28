@@ -44,3 +44,11 @@ Attach the EBS volume created from the snapshot to the EC2 instance running on t
 ## Test and Validation
 
 Connect to the EC2 instance running on the other AZ, mount the EBS volume and see if you can access the files created earlier.
+
+## Challenge
+
+Try encrypting the EBS volume that you will be creating from the snapshot. Use the following steps:
+
+* create a snapshot from the EBS volume,
+* copy the (unencrypted) snapshot to a new (now encrypted) snapshot, and
+* create an EBS volume from the encrypted snapshot.
