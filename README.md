@@ -6,8 +6,9 @@ A collection of hands-on labs to help learning the fundamentals of AWS cloud com
 * a goal,
 * an architecture diagram,
 * a step-by-step guide, describing how to run the lab, with textual and visual information,
-* links to AWS documentation or other relevant information, and
-* procedures to test and validate the lab.
+* links to AWS documentation or other relevant information,
+* procedures to test and validate the lab, and
+* optional challenges. 
 
 Supporting files such as scripts, policy documents, and CloudFormation templates are provided when relevant to completing the lab.
 
