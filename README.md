@@ -86,6 +86,6 @@ This lab's goal is similar to [lab-016](lab-016) but because we want to move a v
 
 The goal of this lab is to illustrate how to create and share an NFS file system using AWS [EFS](https://aws.amazon.com/efs/) service.
 
-[Lab-019 - Connection to an EC2 Instance via Systems Manager]
+[Lab-019 - Connection to an EC2 Instance via Systems Manager](lab-019)
 
 This lab illustrates how to connect to an EC2 instance via [Systems Manager](https://aws.amazon.com/systems-manager/), a service that offers a central place to view and manage AWS resources.
