@@ -15,6 +15,11 @@ This lab illustrates how to connect to an EC2 instance via [Systems Manager](htt
 
 ## Overview
 
+Benefits of connecting to an instance using Systems Manager:
+
+* it creates a log of all the sessions and
+* you don't have to distribute key pairs. 
+
 ### Step 1 - Create a Role
 
 Create a role named *EC2RoleForSystemsManager* to be attached to the EC2 instance so it can use the Systems Manager service. Go to *IAM - Roles - Create Role*. Select *AWS Service* as the trusted entity (i.e., the entity that can assume the role). Then choose *EC2* as the use case. Click *Next: Permissions*. Next select *AmazonSSMFullAccess* policy and click *Next: Tags* and then *Next: Review*. Conclude by giving a name for your role (*EC2RoleForSystemsManager*) and a description. Make sure you save the role.
