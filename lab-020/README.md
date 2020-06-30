@@ -25,7 +25,9 @@ Fargate is a fully managed container service that automatically allocates comput
 * Container: packaging of an application including code, runtime, system tools, libraries, and everything else needed to run an application (a container is created from an image);
 * Cluster: a logical group of tasks or services (this lab will create an ECS cluster containing a single task);
 * Task: specified in JSON format, a task defines what to do (the application itself), where to run it (minimum infrastructure requirements), and how to run it (logging, scaling configurations, security configurations, etc.);
-* Service: number of instances of tasks to run and launching parameters;
+* Service: number of instances of tasks to run and launching parameters.
+
+Note that a cluster can contain tasks that are running on distinct containers.
 
 To start this lab go to ECS and click on *Get started*. This lab will create a Fargate cluster using the *sample-app* template.
 
@@ -51,4 +53,10 @@ For lab you can accept the default settings.
 ![lab-020-scrn-05](images/lab-020-scrn-05.png)
 ![lab-020-scrn-06](images/lab-020-scrn-06.png)
 
+When the configuration is deployed, click on *view service*.
+
 ## Test and Validation
+
+Click on *Tasks* an then on the single task displayed. Copy the public IP and test it using a browser. You should be able to see the web server initial page.
+
+![lab-020-scrn-07](images/lab-020-scrn-07.png)
