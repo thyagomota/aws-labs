@@ -8,7 +8,7 @@ A collection of hands-on labs to help learning the fundamentals of AWS cloud com
 * a step-by-step guide, describing how to run the lab, with textual and visual information,
 * links to AWS documentation or other relevant information,
 * procedures to test and validate the lab, and
-* optional challenges. 
+* optional challenges.
 
 Supporting files such as scripts, policy documents, and CloudFormation templates are provided when relevant to completing the lab.
 
@@ -90,3 +90,7 @@ The goal of this lab is to illustrate how to create and share an NFS file system
 [Lab-019 - Connecting to an EC2 Instance via Systems Manager](lab-019)
 
 This lab illustrates how to connect to an EC2 instance via [Systems Manager](https://aws.amazon.com/systems-manager/), a service that offers a central place to view and manage AWS resources.
+
+[Lab-20 - Running an Amazon ECS Sample App](lab-020)
+
+This lab illustrates how to launch a web server using Amazon ECS's [Fargate service](https://aws.amazon.com/fargate/).
