@@ -94,3 +94,6 @@ This lab illustrates how to connect to an EC2 instance via [Systems Manager](htt
 [Lab-20 - Running an Amazon ECS Sample App](lab-020)
 
 This lab illustrates how to launch a web server using Amazon ECS's [Fargate service](https://aws.amazon.com/fargate/).
+
+[Lab-21 - VPC Peering](lab-021)
+The goal of this lab is to illustrate a VPC peering connection, a way to connect two VPCs using a private connection.

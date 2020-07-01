@@ -2,7 +2,7 @@
 
 ## VPC Peering
 
-Difficulty Level: 1
+Difficulty Level: 2
 
 Creation Date: July 1, 2020
 
@@ -45,4 +45,4 @@ Then on the VPC B side:
 
 ![lab-021-scrn-09](images/lab-021-scrn-09.png)
 
-To test the setting, first ssh to the EC2 instance A (the one on VCP A).  Then try to ssh to EC2 instance B (the on on VPC B) using its private IP address. 
+To test the setting, first ssh to the EC2 instance A (the one on VCP A).  Then try to ssh to EC2 instance B (the on on VPC B) using its private IP address.
