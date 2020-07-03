@@ -11,7 +11,7 @@ Original Author(s): [Thyago Mota](https://github.com/thyagomota)
 Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
-The goal of this lab is to launch a single EC2 instance in a public subnet accessible over the Internet via SSH.
+The goal of this lab is to launch a single EC2 instance in a public subnet accessible over the Internet via SSH. [Here](../images/EC2.png) is a mind map of EC2. 
 
 ## Architecture Diagram
 ![lab-001-arch-01](images/lab-001-arch-01.png)
