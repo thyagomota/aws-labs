@@ -12,7 +12,7 @@ Contributor(s): [João Marcelo](https://github.com/jmhal)
 
 ## Goal
 
-This goal of this lab is to illustrate how to setup a simple EC2 auto scaling service. You will create an auto scaling group with initially only one EC2 instance running. A rule will be setup to automatically launch a second EC2 instance when the CPU usage of the first instance reaches 75%.
+This goal of this lab is to illustrate how to setup a simple EC2 auto scaling service. You will create an auto scaling group with initially only one EC2 instance running. A rule will be setup to automatically launch a second EC2 instance when the CPU usage of the first instance reaches 75%. [Here](../images/auto-scaling.png) is a mind map of Auto Scaling. 
 
 ## Architecture Diagram
 ![lab-006-arch-01](images/lab-006-arch-01.png)
