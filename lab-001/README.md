@@ -42,7 +42,7 @@ Select *Amazon Linux 2 AMI*. An AMI is a template that contains the software con
 ![lab-001-scrn-03](images/lab-001-scrn-03.png)
 
 ### Step 2 - Define the Instance Type
-The instance type defines the CPU and memory capacity. It also specifies the storage architecture the the instance will suppport, along with network perfomance available. You can use the suggested free-tier eligible instance type, and then go on to _Next: Configure Instance Details_.
+The instance type defines the CPU and memory capacity. It also specifies the storage architecture that the instance will suppport, along with network perfomance available. You can use the suggested free-tier eligible instance type, and then go on to _Next: Configure Instance Details_.
 
 ![lab-001-scrn-04](images/lab-001-scrn-04.png)
 
