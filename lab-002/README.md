@@ -86,8 +86,7 @@ Note that the EC2 instance that you will create in the public subnet (labeled as
 ssh-add -K lab-002.pem (macos)
 ssh-add -c lab-002.pem (linux)
 ```
-Got this error: "Permission Denied (publickey,gssapi-keyex,gssapi-with-mic)" ?
-Refer [here]( https://phoenixnap.com/kb/ssh-permission-denied-publickey)
+
 
 2. Then connect to the EC2 instance A but with ssh agent forwarding enabled:  
 
@@ -99,3 +98,5 @@ ssh -A ec2-user@<public-IP of A>
 ```
 ssh <private-IP of B>
 ```
+Got this error: "Permission Denied (publickey,gssapi-keyex,gssapi-with-mic)" ?
+Refer [here]( https://phoenixnap.com/kb/ssh-permission-denied-publickey)
